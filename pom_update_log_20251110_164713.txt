@@ -1,0 +1,17 @@
+☕ Detected Java version: 8
+
+🚀 Scanning dependencies for updates (Java 8)...
+
+⚠️ Error fetching version for com.mysql:mysql-connector-j (attempt 1): HTTPSConnectionPool(host='search.maven.org', port=443): Read timed out. (read timeout=10)
+✅ com.mysql:mysql-connector-j is already up-to-date (9.3.0)
+⚠️ Error fetching version for javax.persistence:javax.persistence-api (attempt 1): HTTPSConnectionPool(host='search.maven.org', port=443): Read timed out. (read timeout=10)
+✅ javax.persistence:javax.persistence-api is already up-to-date (2.2)
+✅ commons-fileupload:commons-fileupload is already up-to-date (1.6.0)
+✅ io.netty:netty-codec-smtp is already up-to-date (4.2.1.Final)
+
+🎉 No compatible updates found.
+
+📊 Summary:
+ - Total dependencies checked: 4
+ - Updated: 0
+📝 Log saved at: C:\Users\s.kumar.shivaswamy\OneDrive - Accenture\Documents\bank\pom_update_log_20251110_164713.txt

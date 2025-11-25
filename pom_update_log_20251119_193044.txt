@@ -1,0 +1,48 @@
+☕ Detected Java version: 21
+
+🚀 Scanning dependencies for updates (Java 21)...
+
+🔎 Found latest version via metadata for com.mysql:mysql-connector-j → 9.5.0
+⬆️ Updating com.mysql:mysql-connector-j | 9.3.0 → 9.5.0
+🔎 Found latest version via metadata for javax.persistence:javax.persistence-api → 2.2
+✅ javax.persistence:javax.persistence-api is already up-to-date (2.2)
+🔎 Found latest version via metadata for commons-fileupload:commons-fileupload → 1.6.0
+✅ commons-fileupload:commons-fileupload is already up-to-date (1.6.0)
+🔎 Found latest version via metadata for io.netty:netty-codec-smtp → 4.2.7.Final
+✅ io.netty:netty-codec-smtp is already up-to-date (4.2.7.Final)
+
+💾 pom.xml updated successfully! Backup created: C:\bank\pom.xml.bak_20251119_193045
+
+📊 Summary:
+ - Total dependencies checked: 4
+ - Updated: 1
+📝 Log saved at: C:\bank\pom_update_log_20251119_193044.txt
+
+🔧 Running: mvn clean install ...
+----- MAVEN OUTPUT START -----
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example.kkb:bank >------------------------
+[INFO] Building bank 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ bank ---
+[INFO] Deleting C:\bank\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.811 s
+[INFO] Finished at: 2025-11-19T19:30:54+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project bank: Failed to clean project: Failed to delete C:\bank\target\classes\com\example\kkb\bank\controller -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+----- MAVEN OUTPUT END -------
+❌ mvn clean install FAILED
+

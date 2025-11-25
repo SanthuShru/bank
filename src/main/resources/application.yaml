@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: bank
+  datasource:
+    url: jdbc:mysql://localhost:3306/hdfc
+    username: root
+    password: Root@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # or create / create-drop / validate / none
+    show-sql: true       # shows SQL in the console
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 8080

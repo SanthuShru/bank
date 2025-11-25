@@ -1,0 +1,22 @@
+☕ Detected Java version: 21
+
+🚀 Scanning dependencies for updates (Java 21)...
+
+🔎 Found latest version via metadata for com.mysql:mysql-connector-j → 9.5.0
+⬆️ Updating com.mysql:mysql-connector-j | 9.3.0 → 9.5.0
+🔎 Found latest version via metadata for javax.persistence:javax.persistence-api → 2.2
+✅ javax.persistence:javax.persistence-api is already up-to-date (2.2)
+🔎 Found latest version via metadata for commons-fileupload:commons-fileupload → 1.6.0
+✅ commons-fileupload:commons-fileupload is already up-to-date (1.6.0)
+🔎 Found latest version via metadata for io.netty:netty-codec-smtp → 4.2.7.Final
+⬆️ Updating io.netty:netty-codec-smtp | 4.1.8.Final → 4.2.7.Final
+
+💾 pom.xml updated successfully! Backup created: C:\Users\s.kumar.shivaswamy\OneDrive - Accenture\Documents\bank\pom.xml.bak_20251119_191843
+
+📊 Summary:
+ - Total dependencies checked: 4
+ - Updated: 2
+📝 Log saved at: C:\Users\s.kumar.shivaswamy\OneDrive - Accenture\Documents\bank\pom_update_log_20251119_191839.txt
+
+🔧 Running: mvn clean install ...
+⚠️ Error running mvn clean install: [WinError 2] The system cannot find the file specified

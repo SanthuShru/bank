@@ -1,0 +1,15 @@
+☕ Detected Java version: 21
+
+🚀 Scanning dependencies for updates (Java 21)...
+
+⬆️ Updating com.mysql:mysql-connector-j | 8.3.0 → 9.3.0
+✅ javax.persistence:javax.persistence-api is already up-to-date (2.2)
+⬆️ Updating commons-fileupload:commons-fileupload | 1.5 → 1.6.0
+⬆️ Updating io.netty:netty-codec-smtp | 4.2.3.Final → 4.2.1.Final
+
+💾 pom.xml updated successfully! Backup created: C:\Users\s.kumar.shivaswamy\OneDrive - Accenture\Documents\bank\pom.xml.bak_20251110_164609
+
+📊 Summary:
+ - Total dependencies checked: 4
+ - Updated: 3
+📝 Log saved at: C:\Users\s.kumar.shivaswamy\OneDrive - Accenture\Documents\bank\pom_update_log_20251110_164602.txt
